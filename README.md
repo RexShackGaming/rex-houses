@@ -10,7 +10,7 @@
 - ensure that the dependancies are added and started
 - add rex-houses to your resources folder
 - add rex-houses.sql to your database
-- add jobs to your rsg-cor\shared\jobs.lua
+- add jobs to your rsg-core\shared\jobs.lua
 
 # Starting the resource
 - add the following to your server.cfg file : ensure rex-houses
