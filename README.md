@@ -1,19 +1,22 @@
-# rex-houses
-- discord : https://discord.gg/YUV7ebzkqs
-- youtube : https://www.youtube.com/@rexshack/videos
+# RexShackGaming
 
-# Dependancies
-- rsg-core
-- ox_lib
+**Game:** RedM (RDR3)  
+**Framework:** RSG Framework v2 (ONLY)
 
-# Installation
-- ensure that the dependancies are added and started
-- add rex-houses to your resources folder
-- add rex-houses.sql to your database
-- add jobs to your rsg-core\shared\jobs.lua
+# Documentation
+[Documentation](https://github.com/RexShackGaming/rex-docs)
 
-# Starting the resource
-- add the following to your server.cfg file : ensure rex-houses
+### Support
+- [Join our Discord](https://discord.gg/YUV7ebzkqs)
+- [Check our YouTube for tutorials](https://www.youtube.com/@rexshack/videos)
 
-# support me
-- tebex : https://rexshackgaming.tebex.io/
+## 💝 Support the Developer
+- [Subscribe as REX Supporter](https://rexshackgaming.tebex.io/package/6431279)
+- [Purchase Premium Resources](https://rexshackgaming.tebex.io/)
+
+Your support helps fund continued development and new features!
+
+---
+
+**Developed by RexShackGaming**  
+*Making RedM servers better, one script at a time* 🤠
