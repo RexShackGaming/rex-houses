@@ -7,7 +7,9 @@ CREATE TABLE IF NOT EXISTS `rex_houses` (
   `owned` tinyint(4) NOT NULL DEFAULT 0,
   `price` int(11) NOT NULL DEFAULT 0,
   `credit` int(11) NOT NULL DEFAULT 0,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`),
+  KEY `idx_owned` (`owned`),
+  KEY `idx_citizenid` (`citizenid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `rex_houses` (`id`, `agent`, `houseid`, `citizenid`, `owned`, `price`, `credit`) VALUES
@@ -65,7 +67,9 @@ CREATE TABLE IF NOT EXISTS `rex_housekeys` (
   `houseid` varchar(7) NOT NULL DEFAULT '0',
   `citizenid` varchar(50) NOT NULL DEFAULT '0',
   `guest` int(1) NOT NULL DEFAULT 0,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`),
+  KEY `idx_citizenid` (`citizenid`),
+  KEY `idx_houseid` (`houseid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE IF NOT EXISTS `rex_doors` (
