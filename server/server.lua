@@ -337,7 +337,7 @@ RegisterNetEvent('rex-houses:server:addguest', function(cid, houseid)
     })
 end)
 
-RegisterNetEvent('rex-houses:server:removeguest', function(houseid, guestcid)
+RegisterNetEvent('rex-houses:server:removeguest', function(guestcid, houseid)
     local src = source
     MySQL.update('DELETE FROM rex_housekeys WHERE houseid = ? AND citizenid = ?', { houseid, guestcid })
     TriggerClientEvent('ox_lib:notify', src, {

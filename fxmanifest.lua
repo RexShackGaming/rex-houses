@@ -3,8 +3,11 @@ rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aw
 game 'rdr3'
 lua54 'yes'
 
-description 'rex-houses'
-version '2.0.7'
+version '2.0.8'
+name 'rex-houses'
+author 'RexShackGaming'
+description 'Advanced house system for RSG Framework'
+url 'https://discord.gg/YUV7ebzkqs'
 
 shared_scripts {
     '@ox_lib/init.lua',
